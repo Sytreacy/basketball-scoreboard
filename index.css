@@ -1,0 +1,99 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: 'Cursed Timer ULiL';
+  src: url('webfontkit/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+    url('webfontkit/cursedtimerulil-aznm-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.digital-font {
+  font-family: 'Cursed Timer ULiL', 'Verdana', Arial, sans-serif;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1B244A;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  padding: 4em 4em 3em;
+}
+
+.new {
+  padding-bottom: 4em;
+}
+
+.white {
+  color: white;
+}
+
+.team-name {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.team-score-1 {
+  padding-right: 2em;
+}
+
+.team-score-2 {
+  padding-left: 2em;
+}
+
+.box {
+  margin: 0.5em 0 1em;
+  background-color: black;
+  aspect-ratio: 1/ 0.6;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-result {
+  color: #F94F6D;
+  font-size: 3.5em;
+  padding-top: 0.2em;
+}
+
+.score {
+  display: flex;
+  gap: 0.5em;
+}
+
+.plus {
+  border: 2px solid #9AABD8;
+  border-radius: 0.2em;
+  padding: 0.5em 0.5em 0.3em;
+  color: #9AABD8;
+  background-color: transparent;
+}
+
+.plus:hover {
+  background-color: #9AABD8;
+  color: #1B244A;
+}
+
+.new-game {
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
