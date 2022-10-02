@@ -1,3 +1,4 @@
 # basketball-scoreboard
 a game score tracker
-(demo link: https://basketball-score-tracking.netlify.app)
+
+:link: visit demo from [here](https://basketball-score-tracking.netlify.app)
